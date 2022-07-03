@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+  integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+  integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+  crossorigin="" defer></script>
+
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <div class="main-container">
+    <div class="pattern-container">
+      <h1 class="header">IP Adress Tracker</h1>
+      <div class="input-container">
+        <input class="input" type="text" placeholder="Search for any IP adress or domain">
+        <span class="arrow-container"><img src="./images/icon-arrow.svg" alt="Brrr" /></span>
+      </div>
+      <div class="info-container">
+        <ul>
+          <li>
+            <p class="info-header">Ip address</p>
+            <p class="info-desc" id="ipText"></p>
+          </li>
+          <li>
+            <p class="info-header">Location</p>
+            <p class="info-desc" id="locationText"></p>
+          </li>
+          <li>
+            <p class="info-header">Timezone</p>
+            <p class="info-desc" id="timeText"></p>
+          </li>
+          <li>
+            <p class="info-header">Isp</p>
+            <p class="info-desc" id="nameText"></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="map-view-container">
+      <div id="map"></div>
+    </div>
+  </div>
+</body>
+</html>
