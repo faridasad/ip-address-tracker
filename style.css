@@ -65,6 +65,7 @@ html {
     justify-content: center;
     margin-top: 1em;
     max-width: 90%;
+    position: relative;
 }
 
 .input {   
@@ -75,6 +76,22 @@ html {
     border: none;
     border-bottom-left-radius: .7em;
     border-top-left-radius: .7em;
+}
+
+.error-message {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: -30px;
+    font-weight: var(--bold);
+    color: #ff0000;
+    letter-spacing: 0.1em;
+    transition: .2s ease;
+}
+
+.error-message.active{
+    visibility: visible;
+    opacity: 1;
 }
 
 .arrow-container {
