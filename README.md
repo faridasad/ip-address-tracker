@@ -1,19 +1,16 @@
-## About The Project
+# About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+#### Brings up location and details according to your IP request. (If there is an ad blocker, I suggest disabling it on this page to the site works properly)
+
+https://user-images.githubusercontent.com/85695544/187701976-c786f910-2db7-4b68-9aac-e10df8e28398.mp4
 
 # Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
 
 ### You might need [Live Server](https://github.com/ritwickdey/vscode-live-server)
 &nbsp;
 # Installation
-
-### Using [Vite](https://vitejs.dev/) as bundler
 
 1. Clone the repo
 
