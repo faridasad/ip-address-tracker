@@ -18,7 +18,7 @@ const initialData = () => {
   };
   getIp();
 
-  let API_URL = `https://geo.ipify.org/api/v2/country,city?apiKey=at_IRRuciinvf9zaCtyuCLLyi16XmSpM&ipAddress=${CLIENT_IP}`;
+  let API_URL = `https://geo.ipify.org/api/v2/country,city?apiKey=at_eVZlLOQ8K1il4jmKhFuVOBL9OCLDi&ipAddress=${CLIENT_IP}`;
 
   const getData = () => {
     fetch(API_URL)
@@ -51,7 +51,7 @@ const setQueryK = (e) => {
 
 const getResult = (ip) => {
   document.querySelector(".error-message").classList.remove("active");
-  let query = `https://geo.ipify.org/api/v2/country,city?apiKey=at_IRRuciinvf9zaCtyuCLLyi16XmSpM&ipAddress=${ip}`;
+  let query = `https://geo.ipify.org/api/v2/country,city?apiKey=at_eVZlLOQ8K1il4jmKhFuVOBL9OCLDi&ipAddress=${ip}`;
 
   fetch(query)
     .then((res) => res.json())
